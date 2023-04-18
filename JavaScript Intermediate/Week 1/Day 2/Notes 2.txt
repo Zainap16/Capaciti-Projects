@@ -1,0 +1,8 @@
+ Pitfall is an iframe that comes from the same origin with an accessible document.
+iframes have a document upon creation which is different from the one loaded into it.
+
+iframe= webpage within a webpage
+to access iframe use= window.frames
+
+sanbox is a technique used to improve web security by restricting the behavior of an <iframe>. It can be implemented by treating the <iframe> as if it's coming from a different origin or by applying other limitations. The <iframe> can be sandboxed with a default set of restrictions that can be relaxed by specifying a list of restrictions to exclude. Some of the available restriction lift keywords include allowing the same origin, top navigation, form submission, script execution, and pop-up windows. By using Anbox, certain actions can be excluded inside an <iframe> to prevent the execution of untrusted code and to protect sensitive information from being accessed.
+========================================================

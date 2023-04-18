@@ -1,0 +1,118 @@
+classes 
+ArrayBuffer, Uint8Array, DataView, Blob, File
+let buffer = new ArrayBuffer(16); // create a buffer of length 16
+
+alert(buffer.byteLength); // 16
+
+This allocates a contiguous memory area of 16 bytes and pre-fills it with zeroes.
+
+ArrayBuffer is not an array of something
+
+A view object does not store anything on its own. It’s the “eyeglasses” that give an interpretation of the bytes stored in the ArrayBuffer.
+
+For instance:
+
+Uint8Array – treats each byte in ArrayBufferas a separate number, with possible values are from 0 to 255 (a byte is 8-bit, so it can hold only that much). Such value is called a “8-bit unsigned integer”.
+
+Uint16Array – treats every 2 bytes as an integer, with possible values from 0 to 65535. That’s called a “16-bit unsigned integer”.
+
+Uint32Array – treats every 4 bytes as an integer, with possible values from 0 to 4294967295. That’s called a “32-bit unsigned integer”.
+
+Float64Array – treats every 8 bytes as a floating point number with possible values from 5.0x10-324to 1.8x10308.
+=======================================================
+let buffer = new ArrayBuffer(16); // create a buffer of length 16
+
+let view = new Uint32Array(buffer); // treat buffer as a sequence of 32-bit integers
+
+alert(Uint32Array.BYTES_PER_ELEMENT); // 4 bytes per integer
+
+alert(view.length); // 4, it stores that many integers
+
+alert(view.byteLength); // 16, the size in bytes
+
+// let's write a value
+
+view[0] = 123456;
+
+// iterate over values
+
+for(let num of view) {
+
+  alert(num); // 123456, then 0, 0, 0 (4 values total)
+
+}
+
+======================================================
+There are several types of TypedArrays, including:
+
+Int8Array, Uint8Array, Uint8ClampedArray: 8-bit signed and unsigned integer arrays, and a special unsigned array where the values are clamped to the range of 0 to 255.
+
+Int16Array, Uint16Array: 16-bit signed and unsigned integer arrays.
+
+Int32Array, Uint32Array: 32-bit signed and unsigned integer arrays.
+
+Float32Array: 32-bit floating-point arrays.
+
+Float64Array: 64-bit floating-point arrays.
+
+TypedArrays are useful for a variety of tasks, such as working with network protocols, file formats, and WebGL data. They are also used extensively in Node.js for working with binary data.
+
+Typed Arrays also provide a few methods for working with the data, such as slice, subarray, set, and fill
+
+
+No splice – we can’t “delete” a value, because typed arrays are views on a buffer, and these are fixed, contiguous areas of memory. All we can do is to assign a zero.
+No concat method.
+
+arr.set(fromArr, [offset]) copies all elements from fromArr to the arr, starting at position offset (0 by default).
+arr.subarray([begin, end]) creates a new view of the same type from begin to end (exclusive). That’s similar to slice method (that’s also supported), but doesn’t copy anything – just creates a new view, to operate on the given piece of data.
+======================================================
+What if we attempt to write an out-of-bounds value into a typed array? There will be no error. But extra bits are cut-off.
+
+=======================================================
+
+DataView provides a way to read/view and write multiple types of data from an ArrayBuffer.
+const buffer = new ArrayBuffer(2);
+const view = new DataView(buffer);
+view.setInt16(0, 42); // write the value 42 to the buffer at position 0
+const value = view.getInt16(0); // read the value back as a 16-bit integer
+console.log(value); // output: 42
+new DataView(buffer, [byteOffset], [byteLength])
+
+buffer – the underlying ArrayBuffer. Unlike typed arrays, DataView doesn’t create a buffer on its own. We need to have it ready.
+byteOffset – the starting byte position of the view (by default 0).
+byteLength – the byte length of the view (by default till the end of buffer).
+======================================================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

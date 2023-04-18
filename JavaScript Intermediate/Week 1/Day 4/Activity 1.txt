@@ -1,0 +1,27 @@
+function concat(arrays) {
+  // Calculate the total length of all the arrays
+  const totalLength = arrays.reduce((acc, array) => acc + array.length, 0);
+
+  // Create a new array to hold the concatenated values
+  const result = new Uint8Array(totalLength);
+
+  // Copy each array into the result array
+  let offset = 0;
+  for (const array of arrays) {
+    result.set(array, offset);
+    offset += array.length;
+  }
+
+  // Return the concatenated array
+  return result;
+}
+
+
+const arrays = [
+  new Uint8Array([1, 2, 3]),
+  new Uint8Array([4, 5]),
+  new Uint8Array([6, 7, 8, 9]),
+];
+
+const concatenatedArray = concat(arrays);
+console.log(concatenatedArray); // Output: Uint8Array [1, 2, 3, 4, 5, 6, 7, 8, 9]

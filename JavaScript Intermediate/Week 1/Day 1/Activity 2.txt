@@ -1,0 +1,4 @@
+If there is no 3rd argument in the open call, or it is empty, then the default window parameters are used.
+If there is a string of params, but some yes/no features are omitted, then the omitted features assumed to have no value. So if you specify params, make sure you explicitly set all required features to yes.
+If there is no left/top in params, then the browser tries to open a new window near the last opened window.
+If there is no width/height, then the new window will be the same size as the last opened.

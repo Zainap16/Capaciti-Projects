@@ -1,0 +1,48 @@
+positive values
+
+x ====== right
+y ====== down
+
+negative values
+
+
+x ====== left
+y ====== up
+
+win.moveBy(x,y)
+
+win.moveTo(x,y)
+
+win.resizeBy(width,height)
+
+win.resizeTo(width,height)
+
+Only popups
+To prevent abuse, the browser usually blocks these methods. They only work reliably on popups that we opened, that have no additional tabs.
+
+No minification/maximization
+JavaScript has no way to minify or maximize a window. These OS-level functions are hidden from Frontend-developers.
+
+Move/resize methods do not work for maximized/minimized windows.
+
+win.scrollBy(x,y)
+
+win.scrollTo(x,y)
+
+elem.scrollIntoView(top = true)
+
+window.onscroll event.
+
+
+
+
+
+
+
+
+
+
+
+
+
+

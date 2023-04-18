@@ -1,0 +1,111 @@
+These URLs all share the same origin:
+
+http://site.com
+http://site.com/
+http://site.com/my/page.html
+These ones do not:
+
+http://www.site.com (another domain: www.matters)
+http://site.org (another domain: .orgmatters)
+https://site.com (another protocol: https)
+http://site.com:8080 (another port: 8080)
+==================================================
+
+solution to clckjacing: x-frame option(into header NOT HTML doc)
+API IntersectionObserver penetrates iframes (track invisisbiltiy).
+
+reSizeObserver
+==================================================
+The oldest defense is a bit of JavaScript which forbids opening the page in a frame (so-called “framebusting”).
+
+That looks like this:
+
+if (top != window) {
+
+  top.location = window.location;
+
+}
+
+That is: if the window finds out that it’s not on top, then it automatically makes itself the top.
+
+This is not a reliable defense, because there are many ways to hack around it. Let’s cover a few.
+
+Blocking top-navigation:
+
+The onbeforeunload event is commonly used to prevent users from accidentally leaving a page without saving changes or completing a form. When the event is triggered, a confirmation dialog box can be displayed with a custom message, asking the user to confirm whether they want to leave the page or not. The dialog box can provide options for the user to save their changes or cancel the navigation.
+=====================================================
+
+if (top != window) {
+
+  top.location = window.location;
+
+}
+
+
+===>>>>
+
+
+window.onbeforeunload = function() {
+
+  return false;
+
+};
+
+========================================================
+Sandbox attribute :One of the things restricted by the sandbox attribute is navigation. A sandboxed iframe may not change top.location.
+
+
+<iframe sandbox="allow-scripts allow-forms" src="facebook.html"></iframe>
+=======================================================
+
+X-Frame-Options
+
+
+DENY
+Never ever show the page inside a frame.
+
+SAMEORIGIN
+Allow inside a frame if the parent document comes from the same origin.
+
+ALLOW-FROM domain
+Allow inside a frame if the parent document is from the given domain.
+
+====================================================
+
+
+1)What is clickjacking?
+
+-Clickjacking( "click" and "hijacking") is a type of attack where an attacker tricks a user into clicking on a hidden or disguised element on a web page by overlaying it with another element. 
+
+2)Why is clickjacking done?
+-stealing sensitve info(passwords, credit card numbers, or personal data)
+-Spreading malware(install malware on a user's computer by tricking them into downloading and installing a malicious program)
+
+
+3)How is clickjacking done?
+-Typically includes ofrmaes,CSS or other ways to overlay transparent the elemt on top of the legitiminate element it may be a link or button which tricks said user into clicking on the vsisble element and triggers invisvible element.
+
+4)An example of clickjacking?
+
+-Invisible buttons: The attacker can make a legitimate button or link invisible by setting its opacity to zero, and then place a fake button or link over it. When the user clicks on the visible element, they are actually clicking on the hidden element.
+
+-Transparent overlays: The attacker can place a transparent element over a legitimate button or link, making it invisible to the user. When the user clicks on what appears to be the legitimate button or link, they are actually clicking on the hidden element.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

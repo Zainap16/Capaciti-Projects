@@ -1,0 +1,56 @@
+Useful to have on websites to show additional information without it taking up space on website and or directing to a new page.
+
+Try this code:
+
+// open after 3 seconds
+
+setTimeout(() => window.open('http://google.com'), 3000);
+
+The popup opens in Chrome, but gets blocked in Firefox.
+
+…If we decrease the delay, the popup works in Firefox too:
+
+// open after 1 seconds
+
+setTimeout(() => window.open('http://google.com'), 1000);
+
+For example:
+
+// popup blocked
+
+window.open('https://javascript.info');
+
+// popup allowed
+
+button.onclick = () => {
+
+  window.open('https://javascript.info');
+
+}
+======================================================
+The syntax to open a popup is: window.open(url, name, params):
+
+url
+An URL to load into the new window.
+
+name
+A name of the new window. Each window has a window.name, and here we can specify which window to use for the popup. If there’s already a window with such name – the given URL opens in it, otherwise a new window is opened.
+
+params
+The configuration string for the new window. It contains settings, delimited by a comma. There must be no spaces in params, for instance: width:200,height=100.
+
+Settings for params:
+Position:
+
+left/top (numeric) – coordinates of the window top-left corner on the screen. There is a limitation: a new window cannot be positioned offscreen.
+
+width/height (numeric) – width and height of a new window. There is a limit on minimal width/height, so it’s impossible to create an invisible window.
+
+
+menubar (yes/no) – shows or hides the browser menu on the new window.
+toolbar (yes/no) – shows or hides the browser navigation bar (back, forward, reload etc) on the new window.
+location (yes/no) – shows or hides the URL field in the new window. FF and IE don’t allow to hide it by default.
+status (yes/no) – shows or hides the status bar. Again, most browsers force it to show.
+resizable (yes/no) – allows to disable the resize for the new window. Not recommended.
+scrollbars (yes/no) – allows to disable the scrollbars for the new window. Not recommended.
+There is also a number of less supported browser-specific features, which are usually not used. Check window.open in MDN for examples.

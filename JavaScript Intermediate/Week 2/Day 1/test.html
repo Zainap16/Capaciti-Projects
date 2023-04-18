@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+<!-- Activity 1 -->
+
+    <!-- <input type="file" onchange="showFile(this)">
+
+
+<script>
+    function showFile(input){
+        let file = input.files[0];
+
+        alert(`File name: ${file.name}`);
+        alert(`Last modified: ${file.lasrModified}`);
+    } 
+</script>
+-->
+
+
+<!-- Actvity 2 -->
+<!-- 
+ <input type="file" onchange="showFile(this)">
+
+ <script>
+function readFile(input){
+    let file = input.files[0];
+
+let reader = new FileReader();
+
+reader.readAsText(file);
+
+reader.onload=function(){
+    console.log(reader.result);
+};
+
+reader.onerror=function(){
+    console.log(reader.error);
+};
+
+}
+
+
+ </script> -->
+ 
+<!-- Activity 3 -->
+
+<input type="file" onchange="showFile(this)">
+
+    <script>
+        function showFile(input) {
+            let file = input.files[0];
+
+            alert('File name: ${file.name}'); //e.g.: my.png
+            alert('Last modified: ${file.lastModified}'); //e.g.: 1552830408824
+        }
+
+        let response =
+        await fetch(url);
+        if (response.ok) { 
+            // if HTTP-status is 200-299
+            // get the response body (see below)
+            let json = await response.json();
+        } else {
+            alert("HTTP-Error:" + response.status);
+        }
+        
+//---------------------------------------
+
+        let response2 = await fetch('https://api.github.com/repos/javascript-tutorial/en.javascript.info/commits');
+        let commits = await response.json(); // read response body and parse as JSON
+        alert(commits[0].author.login);
+
+//---------------------------------------
+
+        fetch('https://api.github.com/repos/javascript-tutorial/en.javascript.info/commits')
+        .then(response => response.json())
+        .then(commits => alert(commits[0].author.login));
+
+//---------------------------------------
+
+        let response3 = await fetch('https://api.github.com/repos/javascript-tutorial/en.javascript.info/commits');
+        let text = await response.text(); // read response body as text
+        alert(text.slice(0, 80) + '..-');
+
+//---------------------------------------
+
+        let response4 = await fetch('/article/fetch/logo-fetch.svg');
+        let blob = await response.blob(); // download as Blob object
+        // create <img> for it
+        let img = document.createElement('img');
+        img.style = 'position:fixed;top:10px;left:10px;width:100px'; document.body.append(img);
+        // show it
+        img.src = URL.createObjectURL(blob);
+        setTimeout(() => { 
+            // hide after three seconds
+            img.remove();
+            URL.revokeObjectURL(img.src);
+        }, 3000);
+
+//---------------------------------------
+
+        let text2 = await response.text(); // response body consumed
+        let parsed = await response.json(); // fails (already consumed)
+
+//---------------------------------------
+//HEADERS
+//---------------------------------------
+
+        let response5 = await fetch('https://api.github.com/repos/javascript-tutorial/en.javascript.info/ commits');
+
+        // get one header
+        alert(response.headers.get('Content-Type')); // application/json; charset=utf-8
+
+        // iterate over all headers
+        for (let [key, value] of response.headers) {
+            alert("${key} = ${value}");
+        }
+
+//---------------------------------------
+
+        let response6 = fetch(protectedUrl, {
+            headers: {
+                Authentication: 'abcdef'
+            }
+        });
+
+
+</script>
+
+<!-- 
+
+activity 4
+
+ <input type="file" onchange="showFile(this)">
+
+    <script>
+        async function getUsers(names) {
+        const users = [];
+
+            for (const name of names) {
+                const response = await fetch(`https://api.github.com/users/${name}`);
+                const user = await response.json();
+                users.push(user);
+            }
+
+            return users;
+        }
+
+        const names = ['octocat', 'mojombo', 'defunkt'];
+        const users = await getUsers(names);
+        console.log(users);
+
+    </script>
+ -->
+
+</body>
+</html>

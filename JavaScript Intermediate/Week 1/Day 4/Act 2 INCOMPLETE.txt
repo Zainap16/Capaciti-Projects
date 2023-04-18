@@ -1,0 +1,21 @@
+Week 1|Day 2|Activity 1
+====================================================
+
+Q: In your dev teams, decide on how you might (theoretically) include what you have learnt today in your website and then create the plans/code for it.
+
+A: Idea 1 - Restrict unauthorized pop-ups from making it's way onto the website.
+
+   Idea 2 - Should the website be launched in an official sense, the <iframe> and postMessages can be used for advertising that can fund the school.
+
+Q: Then, explain the features and code to your mentor.
+
+A: Idea 1 
+    - The same origin soecification methods can assist in navigating to subdomains in further expansion of the website, such as if a portal were to be added.
+
+   Idea 2
+    - Sponsors or businesses can possible host appropriate advertisements as small banners or pictures on the website for a fee that will assist in sponsoring the website and Mzamomtsha Primary. 
+
+
+Q: Make any changes required after discussing with your mentor.
+
+A: Will design and discuss ideas with mentor and alternative uses for implementations that may be better and benefit the website better.

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<div id="myDiv" ></div>
+   <button id="btn1" onclick="Btn1()">click me 1</button>
+
+   <button id="btn2" onclick="Btn2()">click me 2</button>
+
+   <button id="btn3" onclick="Btn3()">click me 3</button>
+<!-- no.3 i struggle with -->
+   <button id="btn4" onclick="Btn4()">click me 4</button>
+
+   <button  onclick="displayMessage()">Test 1</button>
+
+   <button  onclick="onload()">Test 2</button>
+   <button onclick="openWin()">Open Window</button>
+
+   <button onclick="Act3()">Act 3 Code</button>
+
+
+    <script src="./act2.js" >
+    //    window.opener.displayMessage("Hello from the child window!"); 
+    </script>
+</body>
+</html>
+
+<!-- To close a window: win.close().
+
+To check if a window is closed: win.closed.
+
+Technically, the close() method is available for any window, but window.close() is ignored by most browsers if window is not created with window.open(). So it’ll only work on a popup.
+
+-->

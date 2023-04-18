@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+
+    <style>
+
+        iframe { /* iframe from the victim site */
+        
+        width: 400px;
+        
+        height: 100px;
+        
+        position: absolute;
+        
+        top:0; left: -20px;
+        
+        opacity: 0.5; /* in real opacity:0 */
+        
+        z-index: 1;
+        
+        }
+        
+        </style>
+        
+        <div>Click to get rich now:</div>
+        
+        <!-- The url from the victim site -->
+        
+        <iframe src="/clickjacking/facebook.html"></iframe>
+        
+        <button>Click here!</button>
+        
+        <div>...And you're cool (I'm a cool hacker actually) !</div>
+
+<!-- Here’s how the evil page looks. To make things clear, the <iframe> is half-transparent (in real evil pages it’s fully transparent): -->
+
+
+
+<!-- <script>
+
+    // define the target window
+var targetWindow = window.open('https://example.com');
+
+// define the message
+var message = {
+  type: 'greeting',
+  data: 'Hello, world!'
+};
+
+// send the message to the target window
+targetWindow.postMessage(JSON.stringify(message), 'https://example.com');
+
+window.addEventListener('message', function(event) {
+  // check the origin of the message
+  if (event.origin !== 'https://example.com') {
+    return;
+  }
+
+  // parse the message data
+  var message = JSON.parse(event.data);
+
+  // handle the message
+  if (message.type === 'greeting') {
+    console.log(message.data);
+  }
+});
+
+/*In this example, the target window receives the message, checks the origin to ensure that it is coming from a trusted source, parses the message data, and then handles the message based on its type. */ 
+</script> -->
+
+</body>
+</html>

@@ -1,0 +1,13 @@
+var year = currentDate.getFullYear();
+var month = currentDate.getMonth(); // returns 0-11 (January = 0)
+var day = currentDate.getDate();
+var hours = currentDate.getHours();
+var minutes = currentDate.getMinutes();
+var seconds = currentDate.getSeconds();
+
+currentDate.setFullYear(2022);
+currentDate.setMonth(9); // sets the month to October (9 = October)
+currentDate.setDate(15);
+
+var formattedDate = currentDate.toLocaleString('en-US', {weekday: 'long', year: 'numeric', month: 'long', day: 'numeric'});
+console.log(formattedDate); // Output: Monday, April 3, 2023

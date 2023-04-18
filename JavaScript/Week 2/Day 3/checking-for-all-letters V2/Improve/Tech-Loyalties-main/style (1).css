@@ -1,0 +1,348 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+hr {
+  height: 2px;
+  opacity: 1;
+  color: white;
+  margin-bottom: 0;
+}
+
+
+.menu-container {
+    background-color: #083B66;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+.menu-container a {
+    float: left;
+    color: #ABA104;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links when cursor hovers over ir*/
+  .menu-container a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .menu-container a.active {
+    background-color: #ABA104;;
+    color: #083B66;
+  }
+
+  .badgers{
+    width: 7%;
+}
+/* The hero image */
+
+.hero-image {
+   
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/school-2.jpg');
+
+    /* Set a specific height */
+    height: 70%;
+
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    
+} 
+
+
+
+
+
+
+
+/* Place text in the middle of the image */
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+  
+}
+
+
+footer{
+  background: #083B66;
+  height: auto;
+  font-family: 'Times New Roman', Times, serif;
+  padding-top: 50px;
+  color: #ABA104;
+}
+
+.footer-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.footer-container h3{
+  font-size: 1.8rem;
+  font-weight: 400;
+  text-transform: capitalize;
+  line-height: .1rem;
+}
+
+.footer-container p{
+  max-width: 100%;
+  margin: 1px auto;
+  line-height: 28px;
+  font-size: 14px;
+}
+
+.socials{
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.socials li{
+  margin: 0 10px;
+}
+
+.socials a{
+  text-decoration: none;
+  color: #ABA104;
+}
+.socials a i{
+  font-size: 1.1rem;
+}
+
+.footer-bottom{
+  background: #ABA104;
+  color: #083B66;
+  padding: 5px;
+  text-align: center ;
+}
+
+.footer-bottom p{
+  font-size: 10px;
+  word-spacing: 2px;
+  text-transform: capitalize;
+}
+
+.footer-bottom span{
+  text-transform: uppercase;
+  font-weight: bold;
+  opacity: .7;
+}
+
+
+.ion-icon {
+  font-size: 50px;
+}
+
+
+/* --------------------------------------------------- */
+/* DONATIONS CSS */
+/* --------------------------------------------------- */
+/* --------------------------------------------------- */
+/* NAVIGATION */
+/* --------------------------------------------------- */
+.step-header .spacer {
+  display: inline-block;
+  position: relative;
+  width: 100px;
+  height: 5px;
+  background: #d1d1d1;
+  margin-top: 25%;
+}
+
+.step {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbbbbb;
+  border: none;  
+  border-radius: 50%;
+  display: inline-block;
+  opacity: 0.5;
+}
+
+.step.active {
+  opacity: 1;
+}
+
+/* Mark the steps that are finished and valid: */
+.step.finish {
+  background-color: #04AA6D;
+}
+/* --------------------------------------------------- */
+/* TEXT */
+/* --------------------------------------------------- */
+
+* {
+font-family: "Times New Roman", Times, serif;
+}
+
+.modal-body {
+  width: 100%;
+  height: 100%;
+}
+
+.modal_header {
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+.modal_sub_headers {
+  font-size: 20px;
+  font-weight: bolder;
+  margin-left: 1%;
+  text-decoration: underline;
+}
+/* --------------------------------------------------- */
+/* Background */
+/* --------------------------------------------------- */
+.modal_overlay {
+background: url("school_logo.png") center, white;
+background-size: 50%,50%;
+background-repeat: no-repeat;
+}
+
+/* ------------------------------------------------ */
+              /* Payment Options Buttons*/
+/* ------------------------------------------------ */
+.ButtonStateRP {
+  display: none
+}
+.ButtonRP { 
+  border: 2px solid black !important;
+  cursor: pointer;
+  color: black  !important;
+}
+.ButtonStateRP:checked+.ButtonRP {
+  color: white !important;
+  background: #083b66;
+}
+.ButtonStateRP:hover+.ButtonRP  {
+  border-color:#9ecaed !important;
+  box-shadow:0 0 100px #9ecaed !important;
+}
+
+/* ------------------------------------------------ */
+              /* Amount Buttons */
+/* ------------------------------------------------ */
+
+.subtext_button {
+  color: black;
+  font-size: 60%;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.label_button {
+  cursor: pointer;
+  color: black  !important;
+  text-shadow: 0 0 1px rgba(0, 0, 0, .3);
+  transition: .5s background;
+  
+}
+
+.label_button:active {
+  background: #6b7be1;
+}
+
+.row_hover:hover {
+  background: #ABA104;
+  color: white !important;
+  font-size: 120%;
+}
+
+.label_amount:hover {
+  color: white !important;
+}
+
+
+
+/* --------------------------------------------------- */
+          /* HINT */
+/* --------------------------------------------------- */
+.hover-text {
+  position: relative;
+  display: inline-block;
+  font-family: Avenir;
+  text-align: center;
+}
+
+.tooltip-text {
+  visibility: hidden;
+  color: white;
+  font-size: 12px;
+  background-color: #192733;
+  border-radius: 10px;
+}
+
+.hover-text:hover .tooltip-text {
+  visibility: visible;
+}
+
+/* --------------------------------------------------- */
+                  /* TEXT */
+/* --------------------------------------------------- */
+
+.text_button {
+  color: #000;
+  font-size: 20px;
+  font-weight: bold;
+  margin: none;
+  padding: none;
+}
+
+.span_text {
+  color: #333;
+  font-size: 10px;
+  font-weight: normal;
+  margin: none;
+  padding: none;
+}
+/* --------------------------------------------------- */
+                  /* TAB */
+/* --------------------------------------------------- */
+.tab {
+  display: none;
+}
+/* --------------------------------------------------- */
+                  /* REMOVE ARROW ON INPUT */
+/* --------------------------------------------------- */
+.input::-webkit-outer-spin-button,
+.input::-webkit-inner-spin-button {
+-webkit-appearance: none;
+margin: 0;
+}
+
+
+/* --------------------------------------------------- */
+                  /* ROW CHANGES */
+/* --------------------------------------------------- */
+.row_box {
+border: 2px solid gold !important;
+height: 110%;
+}
+
+/* --------------------------------------------------- */
+                  /* IMAGE CHANGES */
+/* --------------------------------------------------- */
+.imghands {
+  width: 5vh;
+}

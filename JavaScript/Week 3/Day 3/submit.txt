@@ -1,0 +1,13 @@
+In HTML and JavaScript, the submit event is an event that occurs when a form is submitted. When a user clicks the "submit" button on a form, the browser will send a request to the server to process the form data. The submit event is fired just before this request is sent, allowing developers to perform additional tasks or validation before the form is submitted.
+
+The Load Event (onload)
+
+The load event occurs when a web page has finished loading in the web browser. You can handle the load event with the onload event handler. 
+
+The Unload Event (onunload)
+
+The unload event occurs when a user leaves the current web page. You can handle the unload event with the onunload event handler.
+
+The Resize Event (onresize)
+
+The resize event occurs when a user resizes the browser window. The resize event also occurs in situations when the browser window is minimized or maximized

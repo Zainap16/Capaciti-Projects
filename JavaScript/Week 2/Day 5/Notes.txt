@@ -1,0 +1,5 @@
+ryan- popup
+yusrah- nav bar (and color change)
+zainap- added images
+lwazi - validation of form
+homble- events + pics

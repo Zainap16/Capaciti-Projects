@@ -1,0 +1,26 @@
+The Keydown Event (onkeydown)
+
+The keydown event occurs when the user presses down a key on the keyboard. You can handle the keydown event with the onkeydown event handler. The following example will show you an alert message when the keydown event occurs.
+
+The Keyup Event (onkeyup)
+
+The keyup event occurs when the user releases a key on the keyboard. You can handle the keyup event with the onkeyup event handler. The following example will show you an alert message when the keyup event occurs.
+
+The Keypress Event (onkeypress)
+
+The keypress event occurs when a user presses down a key on the keyboard that has a character value associated with it. For example, keys like Ctrl, Shift, Alt, Esc, Arrow keys, etc. will not generate a keypress event, but will generate a keydown and keyup event.
+The Focus Event (onfocus)
+
+The focus event occurs when the user gives focus to an element on a web page. You can handle the focus event with the onfocus event handler. The following example will highlight the background of text input in yellow color when it receives the focus.
+
+The Blur Event (onblur)
+
+The blur event occurs when the user takes the focus away from a form element or a window. You can handle the blur event with the onblur event handler. The following example will show you an alert message when the text input element loses focus.
+
+The Change Event (onchange)
+
+The change event occurs when a user changes the value of a form element. You can handle the change event with the onchange event handler. The following example will show you an alert message when you change the option in the select box.
+
+he Submit Event (onsubmit)
+
+The submit event only occurs when the user submits a form on a web page. You can handle the submit event with the onsubmit event handler. The following example will show you an alert message while submitting the form to the server.

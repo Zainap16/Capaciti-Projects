@@ -1,0 +1,11 @@
+Structure: Static websites are built using HTML, CSS, and other static files, and their content and structure remain fixed until they are manually updated. Dynamic websites, on the other hand, are built using server-side programming languages such as PHP, Python, or Ruby, which generate content on-the-fly based on user input or database queries.
+
+Content: Static websites typically contain fixed content that does not change frequently, such as information about a company or organization, while dynamic websites can contain dynamic content such as news feeds, blogs, user-generated content, and personalized recommendations.
+
+Functionality: Static websites typically have limited functionality, such as simple contact forms or image galleries, while dynamic websites can have more complex functionality such as e-commerce platforms, content management systems, and social networking features.
+
+Maintenance: Static websites require manual updates to their content and structure, which can be time-consuming and require technical expertise. Dynamic websites, on the other hand, can be updated more easily through a web-based interface, and their content and structure can be managed through a database or content management system.
+
+Scalability: Static websites are typically less scalable than dynamic websites, as they require manual updates to add new content or functionality. Dynamic websites can be more easily scaled by adding new features or functionality through programming.
+
+In summary, the main differences between static and dynamic websites are in their structure, content, functionality, maintenance, and scalability. Static websites are simpler and less dynamic, while dynamic websites can be more complex and flexible.

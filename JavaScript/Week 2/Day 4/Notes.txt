@@ -1,0 +1,48 @@
+
+alert()
+
+Displays the alert box containing message with ok button.
+
+confirm()
+
+Displays the confirm dialog box containing message with ok and cancel button.
+
+prompt()
+
+Displays a dialog box to get input from the user
+
+open()
+
+Opens a new window.
+
+close()
+
+Closes the current window.
+
+setTimeout()
+
+Perform action after specified time like calling function, evaluating expressions, etc.
+========================================================
+write(“string”)
+
+Writes the given string on the document.
+
+writeln(“string”)
+
+Writes the given string on the document with newline character at the end.
+
+getElementById()
+
+Returns the element having the given id value.
+
+getElementsByName()
+
+Returns all the elements having the given name value
+
+getElementsByTagName()
+
+Returns all the elements having the given tag name
+
+getElementsByClassNamer()
+
+Returns all the elements having the given class name.

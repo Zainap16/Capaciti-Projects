@@ -1,0 +1,45 @@
+What is an onmouseover event? Explain using an example
+
+=event that is triggered when the user moves the mouse pointer over an HTML element. 
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>onmouseover event example</title>
+    <script>
+      function changeColor() {
+        document.getElementById("my-element").style.color = "red";
+      }
+    </script>
+  </head>
+  <body>
+    <p id="my-element" onmouseover="changeColor()">Hover over me to change my color</p>
+  </body>
+</html>
+
+How can a onmouseover event be used to manipulate text?
+
+=can change appearnace of text or other changes
+
+How can a onmouseout event be used to manipulate an image?
+
+=i.e when you hover ovr an imgae it may do specila actions such as showig text up or smooth animations.
+
+What conditions are necessary for you to be able to use the innerHTML element effectively? Explain your answer.
+
+=The element should be present in the HTML document
+=The element should be accessible through JavaScript
+=The content of the element should be valid HTML
+=The element should not contain sensitive information
+
+How and where would you use the onmouseover event, onmouseout event and the innerHTML element to manipulate your Website?
+
+=...
+
+
+
+
+
+
+
+

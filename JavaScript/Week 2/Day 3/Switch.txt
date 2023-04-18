@@ -1,0 +1,10 @@
+switch  (x){
+
+case 0:"Hello"
+break;
+
+case 1:"Welcome"
+break;
+
+
+}

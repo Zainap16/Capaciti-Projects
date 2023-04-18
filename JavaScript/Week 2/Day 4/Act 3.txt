@@ -1,0 +1,17 @@
+1)What is a <div> tag and how is it implemented? use a functional example to explain your answer.
+
+divisions
+<div></div>
+
+2)How is JavaScript used to manipulate the content that is within a particular <div> tag? Respond to the question using an example.
+
+i just coded
+
+3)Explain the following code document.form.text1.value
+
+-document: is root elemenr
+-name: attribue name of input text
+-value:  that returns the value of the input text
+
+
+4)Write code to validate an email. Comment the code out. Please note that responses will be checked for plagiarism. If you are not sure or if in doubt ask your mentor for assistance.

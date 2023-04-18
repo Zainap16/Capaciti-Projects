@@ -1,0 +1,45 @@
+cliff chairs - formatter
+sweedler
+popmotion
+typeJ
+scroll magic
+========================================================
+Fucntion
+
+fucntion helloWorld (extra){
+alert(extra)
+
+}
+
+go("Hello World");
+
+return??
+
+var name= prompt();//THINK OF MESSAGE BOXs
+
+fucntion add(first,sec){
+return first+second
+}
+var sum = add(1,2);
+alert(sum);//3
+
+========================================================
+if condition () {
+is met 
+
+}else {
+
+
+}
+================
+global scope : can see and access externally
+local scope: cant access locally
+================================
+What were the important features of the day?
+functions
+What activities were beneficial?
+all
+What activities (if any) were too easy?
+none
+What activities need more time?
+functions

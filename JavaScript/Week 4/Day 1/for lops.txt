@@ -1,0 +1,23 @@
+var i;
+
+for (i = 0; i < cars.length; i++) {
+
+  text += cars[i] + "<br>";
+
+} 
+
+compress images
+upload video on youtube and link in the website
+Long story short, gzip is a file compression format that most browsers understand and that can run behind the scenes without requiring the user to even know it’s happening.
+
+Minification is the process of removing unnecessary characters from code without affecting its functionality (whitespace, new-line characters, and so on). This allows you to decrease the size of the file you are transporting across the internet. It’s also useful for obfuscating your code, which makes it harder for sneaky hackers to detect security weak-points.
+
+Storing static files in the browser’s cache is a very efficient way to increase the speed of your website, especially on return visits from the same client. I was not aware, until Google told me, that some of my resources were not being cached appropriately because of missing headers on the HTTP response I was sending from my server.
+
+As soon as my home page is loaded, a request is ma
+
+A content distribution network, or CDN, is a network that allows users from all over the world to be geographically closer to your content. If a user has to load a large image from Japan, but your server is in the United States, this will take longer than if you had a server in Tokyo.
+
+A CDN allows you to take advantage of a bunch of proxy servers located all over the world, allowing your content to be loaded more quickly regardless of where your end-user is located.
+
+I want to note that I was able to achieve the results you saw above before implementing a CDN — I simply wanted to mention them as no article about website optimization would be complete without mentioning them. Having one of these bad boys on your website is imperative if you are planning to have a worldwide audience.

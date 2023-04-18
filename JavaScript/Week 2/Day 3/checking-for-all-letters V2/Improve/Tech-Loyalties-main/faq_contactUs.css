@@ -1,0 +1,766 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+    
+*   {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+    .menu-container {
+        background-color: #083B66;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+    }
+
+    .menu-container a {
+        float: left;
+        color: #ABA104;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+      }
+      
+      /* Change the color of links when cursor hovers over ir*/
+      .menu-container a:hover {
+        background-color: #ddd;
+        color: black;
+      }
+      
+      /* Add a color to the active/current link */
+      .menu-container a.active {
+        background-color: #ABA104;;
+        color: #083B66;
+      }
+
+      .badge{
+        width: 7%;
+    }
+
+/*----------------------MENU END----------------*/        
+
+     .header-container {
+        color: #5995DA;
+        background-color: #ffffff;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        }
+   
+      .header {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content:center;
+        align-items: center; 
+        font-family:'Times New Roman', Times, serif;
+        font-size: 300%;
+        color: black;
+        }
+
+        .header hr{
+            justify-content: center;
+            align-self: center;
+            display: flex;
+            width: 90%;
+            margin-left: 6%;
+            background-color: #083B66;
+            height: 1mm;
+        }
+
+  /*       .subheading{
+           width: 100%;
+           height: auto;
+           display: flex;
+           justify-content: center;
+           color: #083B66; 
+           font-size:3vw;
+        }
+
+        .section-container{
+            width: 100%;
+           height: auto;
+            color: #5995DA;
+            background-color: #ffffff;
+            flex-wrap: nowrap;
+            display: flex;
+            font-size: 100%;
+            justify-content:space-around;
+            align-items: center;
+        }
+
+        .section{
+                width: 100%;
+                height: auto;
+                display: flex;
+                flex-wrap: nowrap;
+                contain: content;
+                padding-left: 15%;
+                justify-content:space-around;
+                align-items:center; 
+                font-family:'Times New Roman', Times, serif;
+                font-size:2vw;
+                color: #083B66;
+                
+        }
+
+        .sect-right{
+            width: 50%;
+            height: auto;
+            flex-wrap: nowrap;
+            padding-right: 15%;
+            align-items: center;
+            background-color: #C9D4DD;
+            justify-content: space-around;
+            align-content: flex-start;
+        }
+
+        .sect-left{
+            flex: 50%;
+            flex-wrap: nowrap;
+            justify-content: space-around;
+        }*/
+/*----------------------SECTION END----------------*/ 
+        @media (max-width: 800px) {
+  .sect-right, .sect-left {
+    flex: 100%;
+  }
+}
+
+.map-image{
+  width: 100%;
+  height: auto;
+  display: flexbox;
+}
+
+.faq-image{
+  width: 25vw;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.fieldset{
+    border: 1px solid #ABA104;
+}
+
+html{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 10px;
+    box-sizing: border-box;
+}
+
+/*Section used for centering process*/
+
+section{
+    width: 100%;
+    height: 50vh;
+    background-color: rgb(255, 255, 255);
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    width: 100%;
+    max-width: 80rem;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+}
+
+.accordion-item{
+    background-color: #083B66;
+    border-radius: 1ssrem;
+    
+    margin: 1rem;
+
+    box-shadow: .5rem 2px .5rem rgba(0, 0, 0, .1);
+}
+
+.accordion-link{
+    font-size: 1.6rem;
+    color: #ABA104;
+    text-decoration: none;
+    background-color: #083B66;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem ;
+}
+
+.accordion-link i{
+    color: #ffffffcc;
+    padding: .5rem;
+}
+
+.accordion-link .ion-md-remove{
+    display: none;
+}
+
+.answer{
+    max-height: 0;
+    overflow: hidden;
+    position: relative;
+    background-color: #aba00469;
+    transition: max-height 350ms;
+}
+
+.answer::before{
+    content: "";
+    position: absolute;
+    width: .6rem;
+    height: 90%;
+    background-color: #ABA104;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+
+.answer p{
+    color: rgba(0, 0, 0, .6);
+    font-size: 1.4rem;
+    padding: 2rem;
+}
+
+.accordion-item:target .answer{
+    max-height: 20rem;
+}
+
+.accordion-item:target .accordion-link .ion-md-add{
+    display: none;
+}
+
+.accordion-item:target .accordion-link .ion-md-remove{
+    display: block;
+}
+
+.social-image{
+    width: 5%;
+}
+
+/*----------------------ACCORDIAN END----------------*/ 
+
+.footer{
+    background: #083B66;
+    height: auto;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 40px;
+    color: #ABA104;
+}
+
+.footer-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer-container h3{
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: .1rem;
+}
+
+.footer-container p{
+    max-width: 100%;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+}
+
+.ion-icon {
+    font-size: 50px;
+  }
+  
+
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+
+.socials li{
+    margin: 0 10px;
+}
+
+.socials a{
+    text-decoration: none;
+    color: #ABA104;
+}
+
+.socials a i{
+    font-size: 4.1rem;
+}
+
+.footer-bottom{
+    background: #ABA104;
+    color: #083B66;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-bottom p{
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+
+.footer-bottom span{
+    text-transform: uppercase;
+    font-weight: bold;
+    opacity: .7;
+    font-weight: 200;
+}
+
+/*----------------------FOOTER END----------------*/ 
+
+.section-contain{
+    justify-content: center;
+    display: flex;
+    overflow: hidden;
+    flex-direction: column;
+}
+
+.section-contain h4{
+    align-content: center;
+    justify-content: center;
+    display: flex;
+    font-size: 3vw;
+    color: #083B66;
+}
+
+.section-contain hr{
+    justify-content: center;
+    align-self: center;
+    display: flex;
+    width: 25%;
+    margin-left: 37%;
+    background-color: #083B66;
+    height: 1mm;
+}
+
+/*----------------------FIND US END----------------*/ 
+
+.body{
+    background: #083B66;
+    font-family: 'Times New Roman', Times, serifs;
+}
+
+.contactUs{
+    position: relative;
+    width: 100%;
+    padding: 2.5rem 2.5rem;
+    /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./Images/school_library.jpg");
+    width: 100%;
+}
+
+.contactUs .title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
+
+.contactUs .title h2{
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+}
+
+.form{
+    grid-area: form;
+}
+
+.info{
+    grid-area: info;
+}
+
+.map{
+    grid-area: map;
+}
+
+.contact{
+    padding: 2.5rem;
+    background: white;
+    box-shadow: 0.35rem 0.35rem 0.35rem rgba( 0, 0, 0, 0.20);
+}
+
+.box{
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+     "form info"
+     "form map";
+     grid-gap: 1.5rem;
+     margin-top: 2.5rem;
+}
+
+.contact h3{
+    color: #083B66;
+    font-weight: 500;
+    font-size: 1.4rem;
+    margin-bottom: 2.5rem;
+}
+
+.formBox{
+    position: relative;
+    width: 100%;
+}
+
+.formBox .row50{
+    display: flex;
+    gap: 2.5rem;
+}
+
+.inputBox{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.5rem;
+    width: 100%;
+}
+
+.formBox .row100 .inputBox{
+    width: 100%;
+}
+
+.inputBox span{
+    color: #ABA104;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+}
+
+.inputBox input{
+    padding: 0.5rem;
+    font-size: 0.75rem;
+    outline: none;
+    border: 0.1rem solid #083B66;
+}
+
+.inputBox textarea{
+    padding: 0.5rem;
+    font-size: 0.75rem;
+    outline: none;
+    border: 0.1rem solid #083B66;
+    padding: 0.5rem;
+    font-size: 0.75rem;
+    resize: none;
+    min-height: 13.75rem;
+    margin-bottom: 1rem;
+}
+
+.inputBox input[type="submit"]{
+    background: #083B66;
+    color: #ABA104;
+    border: none;
+    font-size: 1.1rem;
+    max-width: 15vw;
+    font-weight: 500;
+    cursor: pointer;
+    padding: 0.75rem 0.5rem;
+}
+
+.inputBox ::placeholder{
+    color: #9fa8af;
+}
+
+.info{
+    background: white;
+}
+
+.info .inputBox div{
+    display: flex;
+    align-items: center;
+    margin-bottom: 2.5rem;
+}
+
+.info .inputBox div span{
+    min-width: 40px;
+    height: 40px;
+    color: #ABA104;
+    background-color: #083B66;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.4em;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.info .infoBox div p{
+    color: #083B66;
+    font-size: 1.1em;
+}
+
+.info .infoBox div a{
+    color: #ABA104;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+.sci{
+    margin-top: 2.5rem;
+    display: flex;
+}
+
+.sci li{
+    list-style: none;
+    margin-right: 1rem;
+}
+
+.sci li a{
+    color: white;
+    font-size: 2em;
+    color: #083B66;
+}
+
+.sci li a:hover{
+    color: #ABA104;
+}
+
+.map{
+    padding: 0;
+    min-height: 300px;
+}
+
+.map iframe{
+    width: 100%;
+    height:100%;
+}
+
+/*Responsive Code*/
+
+@media (max-width: 700px){
+    .body{
+        background: #083B66;
+    }
+
+    .contactUs{
+        padding: 1.5rem;
+    }
+
+    .box{
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        grid-template-areas:
+         "form" 
+         "info"
+         "map";
+         grid-gap: 1.5rem;
+         margin-top: 2.5rem;
+    }
+
+    .map{
+        min-height: 300px;
+    }
+
+    .formBox .row50{
+        display: flex;
+        gap: 2.5rem;
+        flex-direction: column;
+    }
+
+    .inputBox{
+        width: 100%;
+    }
+}
+
+/* --------------------------------------------------- */
+/* DONATIONS CSS */
+/* --------------------------------------------------- */
+/* --------------------------------------------------- */
+/* NAVIGATION */
+/* --------------------------------------------------- */
+.step-header .spacer {
+    display: inline-block;
+    position: relative;
+    width: 100px;
+    height: 5px;
+    background: #d1d1d1;
+    margin-top: 25%;
+  }
+  
+  .step {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbbbbb;
+    border: none;  
+    border-radius: 50%;
+    display: inline-block;
+    opacity: 0.5;
+  }
+  
+  .step.active {
+    opacity: 1;
+  }
+  
+  /* Mark the steps that are finished and valid: */
+  .step.finish {
+    background-color: #04AA6D;
+  }
+  /* --------------------------------------------------- */
+  /* TEXT */
+  /* --------------------------------------------------- */
+  
+  * {
+  font-family: "Times New Roman", Times, serif;
+  }
+  
+
+  .modal_header {
+    font-size: 30px;
+    font-weight: bolder;
+  }
+  
+  .modal_sub_headers {
+    font-size: 20px;
+    font-weight: bolder;
+    margin-left: 1%;
+    text-decoration: underline;
+  }
+  /* --------------------------------------------------- */
+  /* Background */
+  /* --------------------------------------------------- */
+  .modal_overlay {
+  background: url("school_logo.png") center, white;
+  background-size: 50%,50%;
+  background-repeat: no-repeat;
+  }
+  
+  /* ------------------------------------------------ */
+                /* Payment Options Buttons*/
+  /* ------------------------------------------------ */
+  .ButtonStateRP {
+    display: none
+  }
+  .ButtonRP { 
+    border: 2px solid black !important;
+    cursor: pointer;
+    color: black  !important;
+  }
+  .ButtonStateRP:checked+.ButtonRP {
+    color: white !important;
+    background: #083b66;
+  }
+  .ButtonStateRP:hover+.ButtonRP  {
+    border-color:#9ecaed !important;
+    box-shadow:0 0 100px #9ecaed !important;
+  }
+  
+  /* ------------------------------------------------ */
+                /* Amount Buttons */
+  /* ------------------------------------------------ */
+  
+  .subtext_button {
+    color: black;
+    font-size: 60%;
+    font-style: italic;
+    font-weight: bold;
+  }
+  
+  .label_button {
+    cursor: pointer;
+    color: black  !important;
+    text-shadow: 0 0 1px rgba(0, 0, 0, .3);
+    transition: .5s background;
+    
+  }
+  
+  .label_button:active {
+    background: #6b7be1;
+  }
+  
+  .row_hover:hover {
+    background: #ABA104;
+    color: white !important;
+    font-size: 120%;
+  }
+  
+  .label_amount:hover {
+    color: white !important;
+  }
+  
+  
+  
+  /* --------------------------------------------------- */
+            /* HINT */
+  /* --------------------------------------------------- */
+  .hover-text {
+    position: relative;
+    display: inline-block;
+    font-family: Avenir;
+    text-align: center;
+  }
+  
+  .tooltip-text {
+    visibility: hidden;
+    color: white;
+    font-size: 12px;
+    background-color: #192733;
+    border-radius: 10px;
+  }
+  
+  .hover-text:hover .tooltip-text {
+    visibility: visible;
+  }
+  
+  /* --------------------------------------------------- */
+                    /* TEXT */
+  /* --------------------------------------------------- */
+  
+  .text_button {
+    color: #000;
+    font-size: 20px;
+    font-weight: bold;
+    margin: none;
+    padding: none;
+  }
+  
+  .span_text {
+    color: #333;
+    font-size: 10px;
+    font-weight: normal;
+    margin: none;
+    padding: none;
+  }
+  /* --------------------------------------------------- */
+                    /* TAB */
+  /* --------------------------------------------------- */
+  .tab {
+    display: none;
+  }
+  /* --------------------------------------------------- */
+                    /* REMOVE ARROW ON INPUT */
+  /* --------------------------------------------------- */
+  .input::-webkit-outer-spin-button,
+  .input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+  }
+  
+  
+  /* --------------------------------------------------- */
+                    /* ROW CHANGES */
+  /* --------------------------------------------------- */
+  .row_box {
+  border: 2px solid gold !important;
+  height: 110%;
+  }
+  
+  /* --------------------------------------------------- */
+                    /* IMAGE CHANGES */
+  /* --------------------------------------------------- */
+  .imghands {
+    width: 5vh;
+  }

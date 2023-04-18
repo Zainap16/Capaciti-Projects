@@ -1,0 +1,34 @@
+The on-event handlers are a group of properties offered by DOM elements to help manage how that element reacts to events. Elements can be interactive (e.g. links, buttons, images, forms) or non-interactive (e.g. the base document). Events are actions like being clicked, detecting pressed keys, getting focus, etc. The on-event handler is usually named according to the event it is designed to react to, such as onclick, onkeypress, onfocus, etc.
+
+You can specify an on<...> event handler for a particular event (such as click) for a given object in different ways:
+
+Using an HTML attribute named on{eventtype} on an element, for example:
+<button onclick="return handleClick(event);">,
+Or by setting the corresponding property from JavaScript, for example:
+document.getElementById("mybutton").onclick = function(event) { ... }.
+Note that each object can have only one on-event handler for a given event (though that handler could call multiple sub-handlers). This is why addEventListener() is often the better way to get notified of events, especially when wishing to apply various event handlers independently from each other, even for the same event and/or to the same element.
+
+Also note that on-event handlers are called automatically, not at the programmer's will (although you can do so, such as with mybutton.onclick(myevent);) since they serve more as placeholders to which a real handler function can be assigned.
+
+Event handler’s parameters, this binding, and the return value
+When the event handler is specified as an HTML attribute, the specified code is wrapped into a function with the following parameters:
+
+event - for all event handlers, except onerror.
+event, source, lineno, colno, and error for the onerror event handler. 
+Note that the event parameter actually contains the error message as a string.
+
+When the event handler is invoked, this keyword inside the handler is set to the DOM element on which the handler is registered. The return value from the handler determines if the event is cancelled. The specific handling of the return value depends on the kind of event, for details see "The event handler processing algorithm" in the HTML specification.
+
+The term event handler may be used to refer to:
+
+any function or object registered to be notified of events,
+or, more specifically, to the mechanism of registering event listeners via on... attributes in HTML or properties in web APIs, such as <button onclick="alert(this)"> or window.onload = function() { /* ... */ }.
+When discussing the various methods of listening to events,
+
+event listener refers to a function or object registered via EventTarget.addEventListener(), 
+whereas event handler refers to a function registered via on... attributes or properties
+The EventTarget method addEventListener() sets up a function that will be called whenever the specified event is delivered to the target. Common targets are Element, Document, and Window, but the target may be any object that supports events). addEventListener() works by adding a function or an object that implements EventListener to the list of event listeners for the specified event type on the EventTarget on which it's called. 
+
+target.addEventListener(type, listener[, options]);
+
+target.addEventListener(type, listener[, useCapture]);

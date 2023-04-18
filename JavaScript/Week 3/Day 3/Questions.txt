@@ -1,0 +1,73 @@
+How might you use keyboard events on your website? 
+
+=Keyboard navigation,Form input validation,Hotkeys and shortcuts and Game controls
+
+addEventListener method to listen for the keyup, keydown, or keypress
+
+Create code to show a simple keyboard event.
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Keyboard Event Example</title>
+  </head>
+  <body>
+    <h1>Press a key to see the key code</h1>
+    <script>
+      document.addEventListener('keydown', function(event) {
+        console.log('Key code:', event.keyCode);
+      });
+    </script>
+  </body>
+</html>
+
+How might you use form events on your website?
+
+to retrive information, example, applying for university.
+
+Create code to show a simple form event.
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Form Event Example</title>
+  </head>
+  <body>
+    <h1>Form Event Example</h1>
+    <form id="my-form">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name"><br>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email"><br>
+      <input type="submit" value="Submit">
+    </form>
+    <script>
+      const form = document.getElementById('my-form');
+      form.addEventListener('submit', function(event) {
+        event.preventDefault();
+        console.log('Form submitted');
+      });
+    </script>
+  </body>
+</html>
+
+
+What about document/window events - which ones do you think you would use on your website?
+
+at the moment i am unsure
+
+
+Create code to show a simple document/keyboard event.
+
+
+
+
+
+
+
+
+
+
+
+
+

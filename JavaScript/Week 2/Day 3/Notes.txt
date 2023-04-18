@@ -1,0 +1,3 @@
+focus() method focuses the text in text box, in the form, on the document
+
+var mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;    ???????????

@@ -1,0 +1,175 @@
+onabort
+
+Invoked when an event has been aborted. For example, the browser stops fetching media data before it is completely downloaded.
+
+oncancel
+
+cancel event handler.
+
+oncanplay
+
+Invoked when the browser/user agent can start playing media, but hasn't yet, due to buffering. In other words, if playback were to begin now, it wouldn't play right to the end (due to the current playback rate) - it would need to pause during playback in order to load the rest of the media.
+
+oncanplaythrough
+
+The browser/user agent estimates that if playback were to begin now, the media resource could be rendered at the current playback rate all the way to its end without having to stop for further buffering.
+
+onchange
+
+User has changed the object, then attempts to leave that field (i.e. clicks elsewhere).
+
+onclick
+
+Invoked when the user clicked on the object.
+
+oncuechange
+
+cuechange event handler.
+
+ondblclick
+
+Invoked when the user clicked twice on the object.
+
+ondurationchange
+
+Invoked when the length of the media is changed (i.e. the duration attribute has just been updated).
+
+onemptied
+
+Invoked when a media resource element suddenly becomes empty (for example, due to a network error).
+
+onended
+
+Invoked when the media has reached the end.
+
+oninput
+
+input event handler.
+
+oninvalid
+
+invalid event handler.
+
+onkeydown
+
+Invoked when a key was pressed over an element.
+
+onkeypress
+
+Invoked when a key was pressed over an element then released.
+
+onkeyup
+
+Invoked when a key was released over an element.
+
+onloadeddata
+
+Invoked when the browser/user agent can render the media data at the current playback position for the first time.
+
+onloadedmetadata
+
+Invoked when the browser/user agent has just determined the duration and dimensions of the media resource.
+
+onloadstart
+
+Invoked when the browser/user agent has started loading the media resource.
+
+onmousedown
+
+The cursor moved over the object and the mouse/pointing device was pressed down.
+
+onmouseenter
+
+The cursor enters the outer element (not the inner element). Therefore, does not fire again if the cursor enters a descendant of this element.
+
+onmouseleave
+
+The cursor leaves the element.
+
+onmousemove
+
+The cursor moved while hovering over an object.
+
+onmouseout
+
+The cursor moved off the object
+
+onmouseover
+
+The cursor moved over the object (i.e. user hovers the mouse over the object).
+
+onmouseup
+
+The mouse/pointing device was released after being pressed down.
+
+onmousewheel
+
+Invoked when the mouse wheel is being rotated.
+
+onpause
+
+Invoked when the media resource has been paused.
+
+onplay
+
+Invoked when the media resource starts playback.
+
+onplaying
+
+Playback has begun.
+
+onprogress
+
+The browser/user agent is fetching media data.
+
+onratechange
+
+Invoked when the playback rate has changed (i.e. either the defaultPlaybackRate or the playbackRate has just been updated).
+
+onreset
+
+reset event handler.
+
+onseeked
+
+Invoked when the seeking IDL attribute changed to false (i.e. the seeking attribute is no longer true)
+
+onseeking
+
+Invoked when the seeking IDL attribute changed to true and the seek operation is taking long enough that the user agent has time to fire the event.
+
+onselect
+
+Invoked when some or all of the contents of an object is selected. For example, the user selected some text within a text field.
+
+onshow
+
+show event handler.
+
+onstalled
+
+Invoked when the browser/user agent is trying to fetch media data but the data has stalled (i.e. the data has stopped coming).
+
+onsubmit
+
+User submitted a form.
+
+onsuspend
+
+The browser/user agent is (intentionally) not currently fetching media data, but has not yet downloaded the entire media resource (i.e. it has suspended the download).
+
+ontimeupdate
+
+Invoked when the media's current playback position changed.
+
+ontoggle
+
+Invoked when the details element is opened or closed.
+
+onvolumechange
+
+Invoked when either the volume attribute or the muted attribute has changed.
+
+onwaiting
+
+The next frame of the media is not yet available (but the browser/user agent expects it to become available).

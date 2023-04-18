@@ -1,0 +1,244 @@
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=div, initial-scale=1.0">
+
+    <title>Enrollment</title>
+    <link rel="icon" href="badge.ico" type="image/icon">
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+
+
+    <link rel="stylesheet" href="enroll.css">
+    <script src="script.js"></script>
+   
+</head>
+
+<div class="body">
+    <!-- ********************************************* -->
+    <!-- START OF HEADER / START OF HEADER -->
+    <!-- ********************************************* -->
+  <div class="menu-container">
+      <!--Flexbox containing menu items-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light"
+        style="background-color: #083b66 !important; color: #aba104 !important">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="Home_Page.html" style="color: #aba104; font-size: 2rem">
+              <img src="Images/school_logo.png" alt="" width="50vh" height="auto"
+                  class="d-inline-block align-text-center" />
+                Mzamomtsha Primary</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                  aria-label="Toggle navigation" style="
+          background-color: #aba104 !important;
+          color: #aba104 !important;
+        ">
+              <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                  <ul class="navbar-nav">
+                      <li class="nav-item">
+                          <a class="nav-link" href="Home_Page.html" style="color: #aba104 !important">Home</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="About_Us.html" style="color: #aba104 !important">About Us</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="EventsPage.html" style="color: #aba104 !important">Events</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal"
+                            style="color: #ABA104 !important;">Donations</a>
+                        </li>
+                      <li class="nav-item">
+                          <a class="nav-link" aria-current="page" href="contact_us.html"
+                              style="color: #aba104 !important">Contact
+                              Us</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="faq.html" style="color: #aba104 !important">FAQ</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link active" href="enroll.html" style="color: azure !important">Enroll</a>
+                      </li>
+                  </ul>
+              </div>
+          </div>
+      </nav>
+  </div>
+  <!-- ********************************************* -->
+  <!-- END OF HEADER / END OF HEADER / END OF HEADER -->
+  <!-- ********************************************* -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- ********************************************* -->
+  <!-- MAIN BODY OF CONTENT / MAIN BODY OF CONTENT-->
+  <!-- ********************************************* -->
+  <div class="flex-container">
+     
+    <form id="myForm" class="enroll-form" method="post" action="#">
+      <!-- HEADING -->
+      <div class="heading">
+        <img src="images/Mzamomtsha_Primary_School_Badge.png" alt="badge of the school" class="badge-form">
+        <h3>Enrollment Application Form</h3>
+        </div>
+        <hr style="color: #083B66;">
+
+          <!-- NAME / SURNAME -->
+      <div class="row gx-5 mb-3">
+          <div class="col-md-6">
+            <label for="Name" class="form-check-label">First Name:</label>
+            <input type="text" placeholder="Your name here" required id="Name" class="form-control">
+            <small>Error message</small>
+          </div>
+
+          <div class="col-md-6">
+            <label for="Surname" class="form-check-label">First Surname:</label>
+            <input type="text" placeholder="Your surname here" required id="Surname" class="form-control">
+                  
+          </div>
+      </div>
+
+      <!-- ID NUMBER / DoB -->
+      <div class="row gx-5 mb-3">
+        <div class="col-md-6">
+          <label for="IDNo" class="form-check-label">ID Number:</label>
+          <input type="text" placeholder="000000 0000 0000" id="IDNo" class="form-control" maxlength="13"
+            required>
+        </div>
+        <div class="col-md-6">
+          <label for="DoB" class="form-check-label">Date of Birth:</label>
+          <input id="DoB" type="dob" maxLength="10" class="form-control" placeholder="YYYY/MM/DD">
+        </div>
+      </div>
+
+        <!-- Age / Grade  -->
+      <div class="row gx-5 mb-3">
+        <div class="col-md-6">
+          <label for="Age" class="form-check-label">Age:</label>
+          <input id="Age" type="number" max="18" min="5" class="form-control" placeholder="e.g. 11">
+          <small>Error message</small>
+        </div>
+        <div class="col-md-6">
+          <label for="Grade" class="form-check-label">Grade:</label>
+          <input id="Grade" type="number" max="12" min="1" class="form-control" placeholder="Gr.1">
+        </div>
+      </div>
+
+      <!-- Email and Phone number -->
+          
+
+
+      <div class="row gx-5 mb-3">
+        <div class="col-md-6">
+          <label for="email" class="form-check-label">Email Address:</label>
+          <input id="email" type="text" class="form-control" placeholder="example@example">
+        </div>
+
+        <div class="col-md-6">
+          <label for="phone" class="form-check-label">Phone:</label>
+          <input id="phone" type="tel" class="form-control" placeholder="000 000 0000">
+        </div>
+      </div>
+
+
+      <div class="row gx-5 mb-3">
+        <div class="col-md-6">
+          <label for="address" class="form-check-label">Learner's Address:</label>
+          <textarea name="address" id="address" cols="30" rows="5"></textarea>
+        </div>
+        <div class="col-md-6">
+          <label for="gender">Gender:</label>
+          <div id="gender">
+            <input type="radio" name="gender-type" id="male" checked>
+            <label for="male">Male</label>
+            <input type="radio" name="gender-type" id="female">
+            <label for="female">Female</label>
+            <input type="radio" name="gender-type" id="other">
+            <label for="other">Other</label>
+          </div>
+        </div>
+      </div>
+
+              
+      <!---<div class="col-md-6 terms">
+        <p style="color: #aba104; background-color: #083b66; background: rgba(62, 56, 78, 0.7);">
+          By submitting this form you agree and consent to your personal data which you provide to the
+          Mzamomtsha Primary School in this form being processed, collected, used, disclosed and/or
+          retained by the school and its members, officers and employees.
+        </p>
+      </div>
+         --->
+      <div class="submit">
+        <button type="submit" id="submitBtn" value="Submit" class="button" onclick="emptyName(), emptySurname(), emptyIDNumber(), emptyDateOfBirth(), emptyAge(), emptyGrade(), emptyEmail(), emptyPhoneNumber(), emptyAddress()">Submit</button>
+      </div>
+    </form>
+</div>
+  
+    <!-- ********************************************* -->
+    <!-- END OF MAIN BODY OF CONTENT -->
+    <!-- ********************************************* -->
+
+    <!-- ********************************************* -->
+    <!-- FOOTER / FOOTER / FOOTER / FOOTER / FOOTER   -->
+    <!-- ********************************************* -->
+<div>
+    <footer>
+      <div class="footer-container">
+        <div class="school-name">
+          <h3 style="font-size: 3vh">Mzamomtsha Primary School</h3>
+        </div>
+        <p>Visit our social media to find out more.</p>
+        <ul class="socials" style="margin-right: 4%">
+          <li>
+            <a href="https://www.facebook.com/pages/category/middle-school/Mzamomtsha-Primary-School-105759048369027/posts/"><ion-icon name="logo-facebook" class="ion-icon"></ion-icon></a>
+          </li>
+          <li>
+            <a href="https://twitter.com/CTGC2020/status/1235527098779029504"><ion-icon name="logo-twitter" class="ion-icon"></ion-icon></a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="footer-bottom">
+        <p>
+          copyright &copy;2022 mzamomtshaPrimary. designed by
+          <span>TechLoyalties</span>
+        </p>
+      </div>
+    </footer>
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+
+    <!-- ********************************************* -->
+    <!-- END FOOTER / END FOOTER / END FOOTER / END FOOTER -->
+    <!-- ********************************************* -->
+
+</div> 

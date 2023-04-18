@@ -1,0 +1,54 @@
+1)Based on the reading you have done on systems and information systems, 
+  comment on the following questions:
+========================================
++Outline the major roles IT plays in business? 
+
+-Communication
+-Research
+-Media Production
+-Data tracking & Storage
+-Product Production
+-Human Resources   
+ 
++How would you use business apps in your business?
+
+-Advertise produtcs/services on social media
+-Have an online presence
+-Have own app that conatains: products, services, customer services and a guide.
+-Communication between employees.
+
+2)Then, working on your own business idea, answer the following additional 
+ questions:
+
++What kind of applications could help your business grow?
+
+-Software that stores customer data, finance data
+-Software that tracks and analyses trends/patterns
+-Advertising thr brand
+-Customer Service 
+
++What do you think are the benefits of having strong information technology
+ system for a business?
+
+-Since software will analyze data for me, it means that i notice trends and 
+ restock extra or less products depending on the trends. (Saves on cost)
+-More customers --> More revenue. 
+
+
+3)Present your ideas to the rest of the group in a short 2-minute presentation.
+ Your mentor will control the timing of presentation and elicit feedback from
+ your peers.
+
+======================================================================================
+
+
+
+
+
+
+
+
+
+
+
+

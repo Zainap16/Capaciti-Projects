@@ -1,0 +1,32 @@
+Alignment of IS Strategy to all other Business Strategies:
+==========================================================
++What is IT-Business Alignment?
+
+-A business strategy that usues IT operations and business objectives to
+ reduce costs, improves agility (makes things go quickly) and 
+ increase ROI (Return On Investment).
+
+=Why is IT-Business Alignment?
+
+-Aides in ensuring that a business gets the correct technology
+ at the right time so it can meet key performance so it can reach the
+ businesses goals/objectives (whether it is improving customer service or developing
+ new revenue streams).
+
+=======================================================================================
+
+IS Competitive Advantage:
+========================
+-Information systems aid companies in competing with other competitors by 
+ maintaining low costs, differentiating products or services, focusing on 
+ market niche, strengthening ties with customers and suppliers, and increasing 
+ market entry high competition.
+
+=======================================================================================
+
+Using Technology Meaningfully:
+==============================
+
+-Technology for technology sake is meaningless. No one is able to 'pre-package'
+ for the learning process. Meaningful use of technology to power up personal
+ learning is the key.

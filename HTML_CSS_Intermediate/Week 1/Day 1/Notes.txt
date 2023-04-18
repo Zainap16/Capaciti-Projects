@@ -1,0 +1,35 @@
+1. Sole Proprietership
+
+-Business owned by a single individual.
+-Business are usually smaller.
+
+2. Partnerships
+
+-A business that is owned and operated by two or more people.
+-There are two basics forms of partnerships, general and limited.
+-In a general partnership, all partners have unlimited liability, 
+while in a limited partnership, at least one partner has liability 
+limited only to his or her investment while at least one other partner 
+has full liability.
+
+3. Private Corporation (Pty Ltd)
+
+-A private corporation is owned by a small group of people who are 
+typically involved in managing the business.
+- public corporations;who stock (and ownership) are traded on a
+public stock exchange.
+-A business that is a legal entity created by the state
+whose assets and liabilities are separate from its owners.
+
+4. Public Company
+-A public company is a business that issues securities through an 
+initial public offering (IPO) and trades its stock on at least 
+one stock exchange.
+-Anyone can then become equity owners of the business.
+
+5. Franchise
+-A franchise is when the owner of a business licenses their 
+business to a third party. This gives you the right to 
+operate the business or distribute goods and/or services 
+using the business’s name and systems, for a fee.
+

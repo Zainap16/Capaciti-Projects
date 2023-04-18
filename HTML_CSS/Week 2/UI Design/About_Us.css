@@ -1,0 +1,87 @@
+body,
+html {
+    height: 100%;
+}
+
+
+
+/* The hero image */
+.img-1{
+    /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+    background-image:url("https://static1.s123-cdn-static-a.com/uploads/2078632/400_5cece9be2e60f.jpg");
+
+    /* Set a specific height */
+    height: 50%;
+
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    
+}
+
+.center {
+    text-align: center;
+}
+
+/*Menu*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.menu-container {
+    background-color: #083B66;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+.menu-container a {
+    float: left;
+    color: #ABA104;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links when cursor hovers over ir*/
+.menu-container a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Add a color to the active/current link */
+.menu-container a.active {
+    background-color: #ABA104;
+    ;
+    color: #083B66;
+}
+
+.badge {
+    width: 7%;
+    height: auto;
+
+}
+
+
+/*Main Link*/
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-container div {
+    border: 1px #ccc solid;
+    padding: 10px;
+
+}
+
+p {
+    font-size: 20px;
+}

@@ -1,0 +1,45 @@
+1)In your group, brainstorm the following questions and capture your answers
+for the other groups to see:
+======================================
++What are the PURPOSES of computer applications in business?
+
+-Communication system
+-Work is done efficienly and saves costs and time.
+
+=====================================
+
++What are the FUNCTIONS of computer applications in business?
+
+-Communication
+-Research
+-Media Production
+-Data tracking & Storage
+-Product Production
+-Human Resources
+
+=====================================
+
++What is the EFFECT of IT on business systems?
+
+-Automation : certain tasks are automatically done; efficient & save time,money
+ & resources
+-Artificisl Intelegence (AI): analyzes data quickly & more accurately.
+-Improves Productivity and Customer Service.
+-Cloud Computing: work can be access and doner anywhere. (Remote Working)
+-Managrmnt Redources: manage, track employee performance,customer data and fnivial 
+ performance via real-time. 
+
+2)Then, briefly share your answers with the other groups.
+
+
+
+
+
+
+
+
+
+
+
+
+

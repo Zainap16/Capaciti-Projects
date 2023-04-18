@@ -1,0 +1,10 @@
+Information Systems: is any system  (Accounting, finance, Human resources, etc)
+that relays information.
+
+
+-The extent to which efficiency and effectiveness  is achieved is 
+determined by various factors: 
+
+--The capabilities of the information system; 
+--The characteristics of the organization; and 
+--The work systems and the people of the organization. 

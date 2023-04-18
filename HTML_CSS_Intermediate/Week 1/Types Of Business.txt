@@ -1,0 +1,161 @@
+1. Sole Proprietership
+===========================
+A business owned and operated by a single individual -- and the most 
+common form of business structure in the United States.
+
+Advantages
+=========
+The advantages with a sole proprietorship include: 
+ease and cost of formation -- simply announcing you are in business and requesting any 
+licenses and permits you may need; 
+use of profits -- since all profits from the business belong exclusively to you, 
+the owner; 
+flexibility and control -- you make all the decisions and direct the entire 
+business operations; 
+very little government regulations; 
+secrecy; and
+ease of ending the business.
+
+Disadvantages
+=============
+unlimited liability -- all business debts are personal debts, meaning you 
+could lose everything you own if the business fails or loses a major lawsuit; 
+limited sources of financing -- based on your creditworthiness; 
+limited skills -- the sole proprietor really must be a "jack-of-all-trades,"
+ part manager, marketer, accountant, etc.; and 
+limited lifespan -- the business ends when the owner dies.
+Sole Proprietership example
+
+Sole proprietorships are typically smaller, one-man businesses. Once they grow larger, partners come on board or the business is registered as a Pty Ltd. This means that a large portion of global businesses were at one stage sole proprietorships. In 1994, Bezos resigned from his six-figure corporate job to pursue his business idea. He wanted to create an online bookstore called Amazon. It was risky, but he was convinced that the internet was the place to grow a business.
+
+He worked out of the garage of his rented house, where he stored, packaged and shipped books to customers. Bezos focused his time upskilling himself on how to source books and developing an online, user-friendly system for his customers.A year later, he launched with more than a million books, calling itself ‘Earth’s Biggest Book Store’. Four years after his first sale, Bezos took the company public and Amazon became a vast online marketplace, making sales of more than USD610 million, with more than 3000 employees and 13 million customers globally.
+
+=======================================================================================
+2. Partnerships
+===================
+A business that is owned and operated by two or more people -- and the least used 
+form of business organization in the United States.There are two basics forms of
+ partnerships, general and limited. In a general partnership, all partners have
+ unlimited liability, while in a limited partnership, at least one partner has 
+liability limited only to his or her investment while at least one other partner
+ has full liability.Most states require a legal document called the "Articles of 
+Partnership" that delineates details about each partner's investment and role in
+ the new company.
+
+Advantages
+============
+ease of organization -- simply creating the articles of partnership; 
+combined knowledge and skills -- using the strengths of each partner for 
+better business decision-making; 
+greater availability of financing; and very little government regulations.
+
+Disadvantages
+=============
+unlimited liability -- all business debts are personal debts; 
+reconciling partner disagreements and action -- each partner is 
+responsible for the actions of all the others; 
+sharing of profits -- all money earned has to be shared and 
+distributed to the partners per the articles of partnership; and 
+limited lifespan -- the partnership ends when a partner dies or withdraws.
+Partnership example
+
+Before a business becomes a global hitter, it can start off as a partnership.
+ Once they grow their business they can register as a Pty Ltd or public company. 
+This business started off as a partnership and grew into one of the most well-known 
+and profitable businesses in the world: Apple - Apple - Steve Wozniack and Steve Jobs.
+
+Partners, Steve Wozniack and Steve Jobs, found they had a mutual love for electronics
+ and become friends. After working together on a project, they proved their 
+partnership successful, they decided to team up and develop a personal computer. 
+In 1975, they set up shop in Jobs’ parents’ garage and began developing the prototype 
+named Apple 1. In an effort to raise enough money to launch, Jobs sold his car and 
+Wozniack sold his Hewlett-Packard calculator.
+
+They enlisted the help of a third co-founder Ronald Wayne and began selling the 
+Apple 1. With their profits they improved and refined their design and launched 
+Apple 2 in 1977.
+
+Source: https://www.entrepreneur.com/article/335080
+===============================================================================
+
+3. Private Corporation (Pty Ltd)
+================================
+A business that is a legal entity created by the state whose assets and liabilities
+ are separate from its owners.While there are also public corporations -- who stock 
+(and ownership) are traded on a public stock exchange -- most small businesses are 
+(or at least start as) private corporations.A private corporation is owned by a small 
+group of people who are typically involved in managing the business. 
+Forming a corporation requires developing a legal document called the 
+"Articles of Incorporation" and submitting them to the state in which 
+the corporation wishes to reside
+
+Advantages
+==========
+
+limited liability -- an owner (stockholder) can only lose up to the amount s/he 
+invested; 
+unlimited lifespan -- a corporation is charted to last forever unless its articles 
+of incorporation state otherwise; 
+great sources of funding; and ease of transfer of ownership.
+Disadvantages
+
+double taxation -- the corporation, as a legal entity, must pay taxes, and then 
+shareholders also pay taxes on any dividends received.
+Pty Ltd Example
+
+Although he started out as a sole proprietor and eventually launched as a public 
+company, he ultimately chose to run a private company. Here is an example of a private company: Virgin - Richard Branson
+
+After several years of hustling, in 1969, Richard Branson started a mail-order 
+record company. It made enough money for him to expand and open a discounted 
+record store.He then launched a successful record label, as well as expanding 
+into industries such as trains, mobile phones, banking, bridal wear and gyms and 
+an airline.
+
+“I did not set out to build a business empire. I set out to create something I 
+enjoyed that would pay the bills,” says Branson.
+=======================================================================================
+
+4. Public Company
+===================
+A public company is a business that issues securities through an initial public offering (IPO) and trades its stock on at least one stock exchange. The daily trading of the public company’s stock determines the value of the whole business. Publicly traded companies are defined as public because, unlike Pty Ltd businesses, shareholders can be anyone who purchases stock. Anyone can then become equity owners of the business.
+
+Advantages
+=============
+
+Since you can sell your shares to the public, this offers you more capital to work with.
+Being listed on a stock exchange means that fund managers and traders are keeping an eye on your business. The more interest you have, the more business opportunities will come your way.
+The risk is spread out amongst the various shareholders. The more shareholders, the less risk everyone holds.
+Disadvantages
+
+Setting up a public company is more challenging compared to the other types of business structures.
+Since there are now more shareholders, directors and managers, making decisions can take significantly longer.
+You’ll need to reveal some of your documents and annual accounts are published for inspection to the public. This improves transparency but doesn’t enable you to guard your secrets effectively.
+When you go public, you’re selling the ownership of your company to strangers. It’s challenging to raise the money you need while keeping a 51% majority.
+Public Company Example - Facebook: Mark Zuckerberg
+
+In 2004, Mark Zuckerberg, Eduardo Saverin, Dustin Moskovitz, and Chris Hughes, founded Facebook while studying at Harvard University. Facebook has since become the largest social network in the world, with 2.38 billion monthly active users.
+
+In 2012, Facebook filed to become a public company. Its initial public offering raised $16 billion, giving it a market value of $102.4 billion. At the end of the first day of trading, Mark Zuckerberg’s holdings were estimated at more than $19 billion.
+
+
+5. Franchise
+A franchise is when the owner of a business licenses their business to a third party. This gives you the right to operate the business or distribute goods and/or services using the business’s name and systems, for a fee.
+
+Advantage
+
+Typically, a franchise has a successful track record and a positive reputation that you can capitalise on.
+Franchises offer training programmes designed to optimise how you run the business and bring you up to speed quickly.
+If you join a franchise, they also offer ongoing operational support. This ensures you’re not alone when building and growing your business.
+Disadvantages
+
+If you’ve bought into a franchise, you’ll have to follow the rules, regulations, system operations and directives of the franchise.
+The cost of becoming a franchisee can be high, sometimes even higher than starting your own business.
+You’ll have to pay royalties to the franchise for the use of their name and systems.
+Franchise Example - McDonalds
+
+McDonald's started out as a partnership between the two McDonald’s brothers. Since then it has franchised across the world, opening over 36 000 restaurants and operates in over 100 countries and territories.
+
+Now it is one of the most popular international fast-food chains. Their popularity amongst new franchisees has to do with their extensive training and support, to continue to offer consistency across every business no matter where in the world.
+
+McDonald’s restaurants serve over 68 million people every day, that’s more than the entire population of South Africa.

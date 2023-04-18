@@ -1,0 +1,14 @@
+Instructions
+The activity below will allow everyone to submit their views on forms.
+
+Step 1: Answer the following questions in the text response block below:
+1. When do you think you might use the GET method in a form?
+2. And when might you use the POST method instead?
+3. Can you think of an example of sensitive or private information 
+that you might want people to enter in a form?
+
+Anwers:
+
+1) Get is used to submit data to the owner, that is NOT sensitive (i.e gender).
+2) Post is used to submit data to the owner, that IS sensitive (i.e full name).
+3) Yes, their name, age and ID Number.

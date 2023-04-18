@@ -1,0 +1,107 @@
+creates a new object
+ret = new makeSimpleObject();
+
+
+defines the object
+function makeSimpleObject(){};
+
+eenie = new Object();
+
+A unary operator requires a single operand, either before or after the operator.
+
+A binary operator requires two operands, one before the operator and one after the operator.
+
+The return value matches the expression to the right of the = sign in the “Meaning” column of the table above. That means that (x = y) returns y, (x += y) returns the resulting sum x + y, (x **= y) returns the resulting power x ** y, and so on.
+
+====================================================
+//without deontructing
+var one = foo[0];
+var two = foo[1];
+var three = foo[2];
+
+//with deontructing
+var [one,two,three] = foo;
+=======================================================
+
+A bitwise operator treats their operands as a set of 32 bits (zeros and ones), rather than as decimal, hexadecimal, or octal numbers.
+========================================================
+
+Relational Operator 
+A relational operator compares its operands and returns a Boolean value based on whether the comparison is true. 
+
+in :
+The in operator returns true if the specified property is in the specified object. 
+
+instanceof :
+The instanceof operator returns true if the specified object is of the specified object type.
+========================================================
+
+A regular expression(RegEx) is a sequence of characters that forms a search pattern. (basically validation)
+
+Example 
+var patt = /w3schools/i; 
+
+Example explained: 
+
+/w3schools/i  is a regular expression. 
+
+w3schools  is a pattern (to be used in a search). 
+
+i  is a modifier (modifies the search to be case-insensitive). 
+
+Notice how we use /the/ to indicate that we are looking for “the” in our sentence.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

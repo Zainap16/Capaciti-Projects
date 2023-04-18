@@ -1,0 +1,54 @@
+Company: ClickaTell
+
+1)Company history
+-Their story began in a modest Cape Town apartment in early 2000, 
+where Pieter de Villiers, his brother Casper, and friends Danie du Toit, 
+and Patrick Lawson.
+
+2)Company journey till now
+-2000:
+Became the first to connect internet businesses with consumers on 
+mobile using SMS that could be implemented with four lines of code.
+-2003
+Received the Global Award for Mobile Message, just 3 years after 
+Clickatell was founded.
+-2008
+Became marker leaders in Global Enterprise for SMS.
+-2012
+Pioneered global SMS API offering and award-winning mobile payments
+and distrbution platform Transact.
+-2014
+Launched Digital Distribution Airtime and Data.
+-2017
+Developed proprietary technology for natural language 
+understanding and in-chat application delivery as part of 
+its Touch platform.
+-2018
+Introduced the world's first chat banking solution.
+-2019
+Became the world's leading Chat Commerce solution provider in emerging markets.
+-2020
+Celebrated 20-year anniversary as Chat Commerce pioneer.
+-2021
+Introduced Chat 2 Pay, an in-chat merchant payments feature with Cybersource,
+a Visa solution.
+
+3)The product the company sells now, the product the company sold in the beginning
+-Commuication and application services.
+-The beginning(2000-2018): 
+	Commuications and digital services
+-Current(2018-Present):
+	Commuications, digital services(WhatsApp Business) and banking 
+
+4)Marketing strategy
+-Social media marketing strategy
+-Email marketing strategy
+
+5)Use of media, social or otherwise to market the company products
+-Social media marketing strategy
+-Email marketing strategy
+
+6)Factors that the company can improve on
+More exposure/Advertise it more
+
+

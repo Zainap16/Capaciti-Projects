@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+ <!-- ********************************************* -->
+  <!-- POPUP BEGIN -->
+  <!-- ********************************************* -->
+
+  <div >
+    <style>
+      #popup-container1 {
+    position: fixed !important;
+    top: 0 !important;
+    left: 0 !important;
+    width: 100% !important;
+    height: 100% !important;
+    background: rgba(0, 0, 0, 0.5) !important;
+    display: none !important;
+    z-index: 9999;
+
+  }
+  
+  #popup-content {
+    position: absolute !important;
+    top: 50% !important;
+    left: 50% !important;
+    transform: translate(-50%, -50%) !important;
+    width: 80% !important;
+    height: 80% !important;
+    background: white !important;
+  }
+  
+  #popup-iframe {
+    width: 100% !important;
+    height: 100% !important;
+    border: none !important;
+  }
+  
+  </style>
+  
+  
+  
+  <div id="popup-container">
+    <div id="popup-content">
+      <iframe id="popup-iframe" src="./noticePop.html"></iframe>
+    </div>
+  </div>
+  
+  <script src="./js/alertPop.js" ></script>
+  </div>
+
+
+
+
+</body>
+</html>

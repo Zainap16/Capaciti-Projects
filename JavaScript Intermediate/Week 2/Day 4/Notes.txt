@@ -1,0 +1,17 @@
+. - Matches any character except a newline.
+* - Matches zero or more of the preceding element.
++ - Matches one or more of the preceding element.
+? - Matches zero or one of the preceding element.
+^ - Matches the start of the string.
+$ - Matches the end of the string.
+\d - Matches any digit character.
+\w - Matches any word character (alphanumeric characters and underscores).
+\s - Matches any whitespace character.
+[] - Matches any one of the enclosed characters.
+() - Groups together the enclosed expressions.
+
+$$	"$"
+$&	the whole match
+$`	a part of the string before the match
+$'	a part of the string after the match
+$n	if n is a 1-2 digit number, then it means the contents of n-th parentheses counting from left to right, otherwise it means a parentheses with the given name

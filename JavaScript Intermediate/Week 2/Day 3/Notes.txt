@@ -1,0 +1,10 @@
+A preflight request uses method OPTIONS and has nobody.
+
+Access-Control-Request-Method header has the requested method.
+Access-Control-Request-Headers header provides a comma-separated list of non-simple HTTP-headers
+
+fetch('http://another.com', {
+
+  credentials: "include"
+
+});

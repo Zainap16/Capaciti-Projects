@@ -1,0 +1,11 @@
+Here are a few examples of valid variable names:
+
+c
+ref_number
+admin
+aVeryLongName
+Here are a few examples of invalid variable names:
+
+True
+$name
+12Graph

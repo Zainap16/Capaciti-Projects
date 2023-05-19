@@ -1,0 +1,8 @@
+Backslash character (\)	 \\
+New line feed	\n 
+Tab	\t 
+Vertical tab	\v 
+Backspace	\b
+Carriage return	\r
+Single quote (useful in strings enclosed in single quotes: ‘hello \ ‘World’)	\' 
+Double quote (useful in strings enclosed in single quotes: “hello \ “World”)	\"

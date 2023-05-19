@@ -1,0 +1,27 @@
+
+Operation	Description
+a + b	Sum of a and b
+a - b	Difference between a and b
+a * b	Product of a and b
+a / b	Quotient of a and b
+a // b	
+Floored quotient of a and b. Returns an integer value that was implicitly converted from a floating point value.
+For example, 8 / 5 = 1.6, when implicitly converted all digits fall away after the dot (.), 8 // 5 = 1
+
+a % b	Remainder of a / b (modular operator)
+-a	a negated
++a	a unchanged
+
+Operation	Description
+abs(a)	Absolute value or magnitude of a
+int(a)	a converted to integer
+float(a)	a converted to floating point
+complex(re, imag)	A complex number with real part re, imaginary part imag. imag defaults to zero if not specified.
+divmod(a, b)	The pair (a // b, a % b)
+pow(a, b)	a to the power b
+a ** b	a to the power b
+
+math.trunc(a)	a truncated to Integral
+round(a	a rounded to the nearest integer
+math.floor(a)	The greatest integral float <= a
+math.ceil(a)	The least integral float

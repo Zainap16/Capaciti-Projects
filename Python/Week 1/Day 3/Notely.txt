@@ -1,0 +1,11 @@
+-take three arugments:animalSpecies, and how many litres of water the animal type drinks a day
+
+-This program should ask the user to type in the three values, and then a message must be printed stating the animal’s name and type, and how much water the animal type drinks.
+
+
+task:
+
+x OR y = 1 ===>>>> 1
+
+-- create x , y varivles user data
+--z is output result

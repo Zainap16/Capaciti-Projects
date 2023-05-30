@@ -1,0 +1,18 @@
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+Deposit :150.0 			 Balance: 250.0
+Withdraw :100.0 			 Balance: 0.0
+Withdraw :0.0 			 Balance: 0.0
+=======
+Deposit :10000.0 			 Balance: 10100.0
+Withdraw :1000.0 			 Balance: 9100.0
+>>>>>>> 26e605c493b3874c5c623d74250f0cc5d6a30585
+=======
+Deposit :10000.0 			 Balance: 10100.0
+Withdraw :1000.0 			 Balance: 9100.0
+>>>>>>> 26e605c493b3874c5c623d74250f0cc5d6a30585
+=======
+Deposit :10000.0 			 Balance: 10100.0
+Withdraw :1000.0 			 Balance: 9100.0
+>>>>>>> 89aa72069fadc1a3fe016b17f3c459c589184781

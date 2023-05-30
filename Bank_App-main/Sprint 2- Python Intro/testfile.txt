@@ -1,0 +1,10 @@
+- user must enter percetage rate
+--no need for % via user
+-MUST BE IN PERCENTAGE
+
+- interest_user : simple or compund interest
+- n numbver of years
+- a total amoubt
+
+A = P(1 + r * t)
+

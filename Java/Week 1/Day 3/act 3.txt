@@ -1,0 +1,22 @@
+public class Company(){
+String name;
+Arry<String>=StoreList <Array>;
+
+
+}
+
+public Store(){
+String name;
+Location name;
+Arry<String>=ProductList <Array>;
+
+}
+
+public Prouct(){
+String name;
+Integer QUANTITY;
+Dpouble price;
+
+
+
+}

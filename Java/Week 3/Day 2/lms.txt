@@ -1,0 +1,7 @@
+What are the pro and cons of using V-Model?
+
+The V-Model is a software development model that focuses on testing and verification. Its advantages include clarity, early testing, high-quality deliverables, traceability, and risk mitigation. However, it can be sequential and rigid, lacks flexibility, delays customer feedback, requires extensive documentation, and may face challenges with scalability. The suitability of the V-Model depends on project factors and should be carefully evaluated before adoption.
+
+List the disadvantages for using a waterfall model in software development.
+
+The Waterfall Model in software development has several disadvantages, including inflexibility, limited customer involvement, the risk of late-stage surprises, inefficient resource utilization, lengthy development cycles, limited visibility and control, challenges with complex projects, and difficulties in testing and quality assurance. While it may be suitable for certain projects, more iterative and flexible approaches like Agile methodologies have gained popularity to overcome these limitations.

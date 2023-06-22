@@ -1,0 +1,180 @@
+Questions
+1) What Is SDLC?
+
+2) Name five Models used in SDLC
+
+3) Explain Phases of the waterfall model
+
+4) States the importance of Design phase?
+
+5) What are the tasks performed in Coding phase?
+
+6) What is feasibility study?
+
+7) What are the Maturity levels in CMM?
+
+8) Give some benefits of using V model?
+
+9) What is the 'scope' of a project?
+
+10) According to you, when should users be trained on a new system?
+
+11) Name the phase where the performance of the new system monitored?
+
+12) What is a computer-based information system?
+
+13) Explain Low Level or Detailed Design concerning SDLC
+
+14) What is the use of JAD session?
+
+15) State the Difference Between SDLC And Stlc
+
+16) Who are the people involved in the phases of Waterfall Model
+
+17) What is level-0 DFD?
+
+18) Explain the team Requirement Gathering concerning SDLC
+
+19) Briefly explain Testing Phase
+
+20) What are problems faced in the waterfall model?
+
+21) What is the details study of the existing system is called?
+
+22) What is the main aim of prototyping aim?
+
+23) In which step of SDLC project early termination could be done?
+
+24) According to you which is most creative and challenging phase of system life cycle?
+
+25) Name the type of feasibility where the cost saving and additional profits will exceed the investment required.
+
+26) Can bug fixes also include software maintenance?
+
+27) Cost of error correction is least in which stage of SDCL life cycle?
+
+ASNWERS:
+
+1) SDLC stands for Software Development Life Cycle. It is a systematic approach or process followed to develop software applications. It consists of a set of phases or stages that guide the development team through the entire software development process, from the initial requirements gathering to the deployment and maintenance of the software.
+
+2) Five models commonly used in SDLC are:
+
+   a) Waterfall Model
+   b) Agile Model
+   c) Spiral Model
+   d) V Model
+   e) Iterative Model
+
+3) The phases of the waterfall model include:
+
+   a) Requirements Gathering and Analysis: The project requirements are gathered and analyzed to determine the scope of the project.
+   b) System Design: The system architecture and design are created based on the requirements analysis.
+   c) Implementation: The development team starts coding and implements the system according to the design.
+   d) Testing: The developed system is tested for any bugs or errors to ensure it meets the requirements.
+   e) Deployment: The fully tested system is deployed or installed in the production environment.
+   f) Maintenance: Ongoing maintenance and support activities are performed to keep the system operational and up-to-date.
+
+4) The design phase is important because it helps in transforming the requirements gathered during the analysis phase into a detailed system design. The design phase involves creating the system architecture, designing the database, and defining the overall structure of the software. It acts as a blueprint for the development phase and helps in ensuring that the final product meets the desired functionality and performance requirements.
+
+5) The tasks performed in the coding phase include:
+
+   a) Writing code: The developers write the actual code for the software based on the design specifications.
+   b) Unit testing: The developers perform unit testing to validate individual components or modules of the software.
+   c) Integration: The developed code is integrated to form a complete software system.
+   d) Code reviews: Peer reviews or code inspections are conducted to ensure the quality and maintainability of the code.
+   e) Documentation: The developers document the code to provide information for future reference and maintenance.
+
+6) Feasibility study is an analysis conducted during the early stages of a project to evaluate its viability. It assesses the technical, economic, operational, and scheduling feasibility of the project. The feasibility study helps in determining whether the project should proceed or not, considering factors such as resource availability, cost-benefit analysis, and alignment with the organization's goals and objectives.
+
+7) The maturity levels in CMM (Capability Maturity Model) are as follows:
+
+   a) Level 1 - Initial: Processes are ad hoc and chaotic, with no defined or repeatable processes.
+   b) Level 2 - Managed: Basic project management processes are established and used to track cost, schedule, and functionality.
+   c) Level 3 - Defined: Standardized and documented processes are followed across the organization.
+   d) Level 4 - Quantitatively Managed: Processes are measured and controlled using statistical and quantitative techniques.
+   e) Level 5 - Optimizing: Continuous process improvement is emphasized, and new technologies and innovations are adopted.
+
+8) Some benefits of using the V model in software development are:
+
+   a) Early detection of defects: Testing activities are integrated from the early stages, ensuring that defects are caught early in the development process.
+   b) Clear traceability: Each stage of the development process is linked to a corresponding testing phase, providing clear traceability between requirements, design, and test cases.
+   c) Improved documentation: The V model emphasizes the importance of documentation, resulting in well-documented requirements, design, and test artifacts.
+   d) Reduced rework: By identifying defects early and emphasizing testing, the V model helps in reducing rework and the associated costs.
+   e) Increased
+
+ customer satisfaction: The structured approach of the V model helps in delivering a high-quality product that meets customer requirements.
+
+9) The 'scope' of a project refers to the boundaries or extent of the work to be accomplished in the project. It defines what is included and excluded from the project. The scope includes the project objectives, deliverables, requirements, and the overall work that needs to be done to achieve the desired outcomes.
+
+10) Users should be trained on a new system before or during the deployment phase of the project. Sufficient training should be provided to the users to familiarize them with the new system's features, functionalities, and usage. Training before the system goes live ensures that users are well-prepared and comfortable using the system, minimizing disruptions and maximizing user adoption.
+
+11) The phase where the performance of the new system is monitored is the maintenance phase. Once the system is deployed, it enters the maintenance phase where ongoing monitoring and support activities are performed. This includes monitoring the system's performance, addressing any issues or bugs that arise, and making necessary updates or enhancements to ensure the system continues to meet its intended purpose.
+
+12) A computer-based information system is a system that collects, processes, stores, and disseminates information using computer technology. It involves the combination of hardware, software, data, and people to perform various tasks such as data entry, processing, storage, retrieval, and reporting. Computer-based information systems can be used in various domains, including business, education, healthcare, finance, and many others.
+
+13) Low-level or detailed design, also known as the technical design, is a phase in SDLC where the system's overall design is translated into detailed technical specifications. It involves breaking down the system components into smaller modules, defining data structures and algorithms, and specifying interfaces and interactions between modules. The low-level design provides a detailed roadmap for the development team to implement the system.
+
+14) JAD (Joint Application Development) sessions are collaborative workshops or meetings involving stakeholders, users, and development teams. The primary use of JAD sessions is to gather requirements and facilitate active participation from all involved parties. JAD sessions help in improving communication, resolving conflicts, identifying risks, and accelerating the requirements gathering process.
+
+15) The main differences between SDLC (Software Development Life Cycle) and STLC (Software Testing Life Cycle) are as follows:
+
+   - SDLC focuses on the overall development of the software, starting from requirements gathering to deployment and maintenance. STLC, on the other hand, specifically focuses on the testing activities throughout the software development process.
+   - SDLC involves phases like analysis, design, coding, testing, and deployment, while STLC involves phases like test planning, test design, test execution, and test closure.
+   - SDLC encompasses the entire software development process, including non-testing activities. STLC is a subset of SDLC that concentrates solely on testing-related activities.
+   - SDLC involves stakeholders from various roles, including developers, testers, project managers, and users. STLC primarily involves testers and QA professionals.
+
+16) The people involved in the phases of the Waterfall Model include:
+
+   a) Requirements Gathering and Analysis: Business analysts, stakeholders, and users.
+   b) System Design: System architects, software designers, and stakeholders.
+   c) Implementation: Developers, programmers, and coders.
+   d) Testing: Testers, quality assurance professionals, and users.
+   e) Deployment: System administrators, network administrators, and users.
+   f) Maintenance: Support team, maintenance team, and users.
+
+17) Level-0 DFD (Data Flow Diagram) is the highest level of abstraction in a DFD. It represents the entire system as a single process and shows the flow of data into and out of the system. Level-0 D
+
+FD provides an overview of the system's boundaries and major processes but does not provide detailed information about the internal processes within those boundaries.
+
+18) Requirements gathering is a team effort involving various stakeholders in SDLC. The team typically includes:
+
+   a) Business analysts: Responsible for understanding and documenting business requirements.
+   b) System analysts: Involved in analyzing and translating business requirements into system requirements.
+   c) Subject matter experts (SMEs): Provide domain-specific knowledge and insights.
+   d) Project managers: Oversee the requirements gathering process and ensure project alignment.
+   e) Users or stakeholders: Provide their perspective, needs, and expectations for the system.
+
+19) The testing phase in SDLC involves activities related to validating the developed software against the defined requirements. It includes:
+
+   a) Test planning: Defining the testing objectives, scope, and test strategy.
+   b) Test design: Creating test cases, test scenarios, and test data based on requirements.
+   c) Test execution: Running the tests and comparing the actual results with expected results.
+   d) Defect tracking: Reporting and tracking defects, and working with the development team to resolve them.
+   e) Test closure: Evaluating the test results, documenting lessons learned, and preparing test closure reports.
+
+20) Some problems faced in the waterfall model include:
+
+   a) Lack of flexibility: It is difficult to accommodate changes once a phase is completed, as the model follows a linear sequential approach.
+   b) Limited user involvement: Users are typically involved only in the requirements gathering phase, leading to potential gaps or misunderstandings.
+   c) Late detection of defects: Testing is performed after the development phase, which may result in identifying defects late in the process.
+   d) Difficulty in estimating time and cost: Estimating the entire project upfront without flexibility for changes can lead to inaccurate estimates.
+   e) Limited scope for iteration and feedback: The linear nature of the model doesn't allow for iterative feedback and improvement cycles.
+
+21) The detailed study of the existing system is called "system analysis." System analysis involves examining the current system's processes, functionalities, and limitations to identify areas of improvement or requirements for a new system. It includes studying the system's components, workflows, data flows, user interactions, and any bottlenecks or inefficiencies in the existing system.
+
+22) The main aim of prototyping is to quickly create a working model or prototype of the software to gather user feedback and validate design decisions. The prototype helps in visualizing the system's look and feel, functionality, and user interactions before investing significant resources into full-scale development. The main objectives of prototyping include reducing development time, improving user involvement, validating requirements, and minimizing risks.
+
+23) Project early termination could be done in the initiation phase of the SDLC. During the initiation phase, the feasibility study is conducted to determine if the project is viable and aligned with the organization's goals. If the study reveals that the project is not feasible or the risks outweigh the benefits, the project may be terminated early to avoid wasting resources on a non-viable endeavor.
+
+24) The most creative and challenging phase of the system life cycle can vary depending on individual perspectives. However, the design phase is often considered creative and challenging. In this phase, the conceptual ideas and requirements are translated into a detailed system design, involving decisions on architecture, algorithms, user interfaces, and integration. Designing an efficient, scalable, and user-friendly system requires creativity, problem-solving skills, and technical expertise.
+
+25) The type of feasibility where the cost savings and additional profits will exceed the investment required is called "economic feasibility." Economic feasibility evaluates the financial viability of a project by comparing the costs involved in developing and maintaining the system with the expected benefits, such as cost savings, increased revenue, or improved efficiency
+
+. If the benefits outweigh the costs, the project is considered economically feasible.
+
+26) Yes, bug fixes can be considered part of software maintenance. Software maintenance involves activities performed after the software is deployed, aimed at keeping the software operational, up-to-date, and free from defects. Bug fixes, enhancements, updates, and troubleshooting issues are all part of software maintenance to ensure the software's reliability, performance, and usability.
+
+27) The cost of error correction is least in the requirements gathering stage of the SDLC. Detecting and addressing errors or defects during the requirements gathering stage is relatively less costly compared to identifying and fixing them in later stages of development. It is important to invest time and effort in thorough requirements gathering to minimize rework and reduce the cost associated with error correction.
+
+
+

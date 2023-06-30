@@ -1,0 +1,25 @@
+Start the NetBeans IDE if you have not done so.
+Create a NetBeans project
+Select File from top-level menu and select New Project.
+Observe that the New Project dialog box appears.
+Select Java under Categories section and Java Application under Projects section.
+Click Next.
+Under Name and Location pane, for the Project Name field, enter DivideByZero.  
+Click check create Main Class and Set as Main Project Finish.
+Modify Main.java as shown in Code-1.11 below.  The change is to generate an exception.
+ public class Main {
+   
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+          System.out.println(3/0);
+    }
+   
+   }
+
+Right click DivideByZero project node and select Run.
+Observe the result in the Output window of the NetBeans IDE.
+As you have noticed an error occurred
+
+COMPLETED
